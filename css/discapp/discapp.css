@@ -1,0 +1,90 @@
+
+@import url(open-sans.css);
+//@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    font-size : 1em;
+    font-family : 'Average Sans', sans-serif;
+    color : #999999;
+}
+
+body {
+    overflow-x : hidden!important;
+    font-family : 'Average Sans', sans-serif;
+    font-stretch : ultra-condensed;
+    -webkit-font-smoothing : antialiased;
+    min-height : 100%;
+    background : #f9f9f9;
+}
+
+.btn {
+    white-space : normal;
+}
+
+
+.btn-oferta {
+    display : block; 
+    margin-left : auto; 
+    margin-right : auto;
+}
+
+.btn-fav-oferta {
+    display : block; 
+    margin-left : auto; 
+    margin-right : auto;
+}
+
+#imagen {
+    display : block; 
+    margin-left : auto; 
+    margin-right : auto;
+}
+
+.navbar{
+    background: #2d2d2d;
+}
+
+/*.btn{
+    background: #6bb5c2;
+}*/
+
+.btn-group, .btn-group-justified {
+    border-radius : 3px;
+}
+
+.img-header, .img-header-left, .img-header-right {
+    padding : 5px; 
+    height : 50px;
+    width : auto;
+}
+
+.img-header-left {
+    float : left;
+}
+
+.img-header-right {
+    float : right;
+}
+
+.img-header-loading-right {
+    padding : 10px; 
+    height : 50px;
+    width : auto;
+    float: right;
+}
+
+.compSmall, .compSmallIndex {
+    font-size: 14px;
+}
+
+.compMedium, .compMediumIndex {
+    font-size: 16px;
+}
+
+.compBig, .compBigIndex  {
+    font-size: 18px;
+}
+
+.compSuperBig, .compSuperBigIndex {
+    font-size: 24px;
+}
