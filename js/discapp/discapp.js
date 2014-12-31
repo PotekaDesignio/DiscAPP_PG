@@ -311,6 +311,7 @@ function DiscApp() {
             type: 'GET',
             dataType: "html",
             async: false,
+            contentType: 'text/html; charset=utf-8',
             success: function(data) {
                 jQuery('#' + component).html(data);
             },
